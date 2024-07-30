@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
+import Cards from "./components/Card";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -9,6 +10,7 @@ function App() {
     <Router>
       <div>
         <NavBar />
+        <Cards />
         {/* You can add your Routes here */}
       </div>
     </Router>
