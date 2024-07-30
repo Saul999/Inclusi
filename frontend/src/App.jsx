@@ -1,12 +1,17 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar"; // Make sure the capitalization is correct
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
 import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar />
-    </>
+    <Router>
+      <div>
+        <NavBar />
+        {/* You can add your Routes here */}
+      </div>
+    </Router>
   );
 }
 
