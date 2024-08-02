@@ -17,7 +17,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Cards></Cards>}></Route>
-            <Route path="/civic-tools" element={<CivicTools />}></Route>
+            <Route path="/civic" element={<CivicTools />}></Route>
             <Route path="/translator" element={<Translator />}></Route>
             <Route path="/resources" element={<Resources />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
