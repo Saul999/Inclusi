@@ -4,7 +4,7 @@
 
 /* Navbar styles */
 .custom-navbar {
-  background-color: #2ecc71 !important;
+  background-color: #016341 !important;
 }
 
 .custom-navbar .navbar-brand,
@@ -19,7 +19,7 @@
 }
 
 .custom-navbar .dropdown-menu {
-  background-color: #2ecc71 !important;
+  background-color: #016341 !important;
 }
 
 .custom-navbar .dropdown-item {
@@ -28,5 +28,5 @@
 
 .custom-navbar .dropdown-item:hover,
 .custom-navbar .dropdown-item:focus {
-  background-color: #27ae60 !important;
+  background-color: #016341 !important;
 }
