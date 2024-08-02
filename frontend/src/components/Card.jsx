@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Cards() {
   const cardData = [
-    { title: "Civic Engagement Tools", path: "/civic-tools" },
+    { title: "Civic Engagement Tools", path: "/civic" },
     { title: "Language Translator", path: "/translator" },
     { title: "Resources", path: "/resources" },
     { title: "Contact Us", path: "/contact" },
